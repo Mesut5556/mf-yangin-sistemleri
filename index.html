@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MF Yangın Sistemleri - İzmit Kocaeli merkezli, Türkiye genelinde yangın güvenliği proje, tasarım, tedarik, uygulama ve bakım çözümleri.">
+  <title>MF Yangın Sistemleri | Türkiye Geneli Yangın Güvenliği</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,sans-serif;background:#f4f6f9;color:#172033}
+    header{background:#101d30;color:white;padding:22px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .brand{font-size:24px;font-weight:800}
+    .brand span{color:#f04444}
+    nav a{color:white;text-decoration:none;margin-right:15px}
+    .hero{background:linear-gradient(120deg,#101d30,#253f5c);color:white;padding:85px 7%;text-align:center}
+    .hero h1{font-size:clamp(30px,5vw,52px);margin:15px auto;max-width:850px}
+    .hero p{max-width:680px;margin:15px auto 28px;line-height:1.7}
+    .btn{display:inline-block;background:#d52d35;color:white;padding:15px 24px;border-radius:8px;text-decoration:none;font-weight:bold;border:0;cursor:pointer}
+    section{padding:55px 7%;max-width:1250px;margin:auto}
+    h2{text-align:center;margin-bottom:30px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+    .card{background:white;border-radius:12px;padding:25px;box-shadow:0 3px 15px #14203312}
+    .card h3{color:#bd2630}
+    .card p{line-height:1.6}
+    form{max-width:650px;margin:auto;display:grid;gap:12px}
+    input,select,textarea{width:100%;padding:14px;border:1px solid #cbd2db;border-radius:7px;font:inherit}
+    footer{background:#101d30;color:white;text-align:center;padding:30px}
+    .float{position:fixed;right:18px;bottom:18px;background:#168a53;color:white;padding:15px;border-radius:30px;text-decoration:none;font-weight:bold;box-shadow:0 3px 12px #0004}
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand"><span>MF</span> YANGIN SİSTEMLERİ</div>
+  <nav>
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#urunler">Ürünler</a>
+    <a href="#teklif">Teklif Al</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <p>İZMİT / KOCAELİ • TÜRKİYE GENELİ</p>
+  <h1>Yangın Güvenliğinde Profesyonel Çözümler</h1>
+  <p>Yangın algılama ve söndürme sistemlerinden proje tasarımına, malzeme tedarikinden uygulama ve bakıma kadar kapsamlı çözümler.</p>
+  <a class="btn" href="#teklif">Projeniz İçin Teklif Alın</a>
+</div>
+
+<section id="hizmetler">
+  <h2>Hizmet Alanlarımız</h2>
+  <div class="grid">
+    <div class="card"><h3>Yangın Algılama</h3><p>Adresli ve konvansiyonel yangın alarm sistemleri, dedektörler ve kontrol panelleri.</p></div>
+    <div class="card"><h3>Sprinkler Sistemleri</h3><p>Otomatik sulu yangın söndürme sistemleri ve tesisat çözümleri.</p></div>
+    <div class="card"><h3>Hidrant ve Yangın Dolabı</h3><p>Yangın dolapları, hidrant hatları ve yangın pompa sistemleri.</p></div>
+    <div class="card"><h3>Gazlı Söndürme</h3><p>Özel risk alanları için gazlı yangın söndürme çözümleri.</p></div>
+    <div class="card"><h3>Köpüklü Söndürme</h3><p>Endüstriyel alanlara yönelik köpüklü söndürme sistemleri.</p></div>
+    <div class="card"><h3>Duman Tahliye</h3><p>Duman kontrolü, tahliye ve basınçlandırma sistemleri.</p></div>
+    <div class="card"><h3>Acil Durum Sistemleri</h3><p>Acil aydınlatma, yönlendirme ve tahliye çözümleri.</p></div>
+    <div class="card"><h3>Proje ve Tasarım</h3><p>Yangın güvenliği projelendirme, sistem seçimi ve teknik danışmanlık.</p></div>
+    <div class="card"><h3>Montaj ve Bakım</h3><p>Kurulum, devreye alma, test, bakım ve modernizasyon.</p></div>
+  </div>
+</section>
+
+<section id="urunler">
+  <h2>Ürün ve Malzeme Grupları</h2>
+  <div class="grid">
+    <div class="card"><h3>Alarm Ekipmanları</h3><p>Dedektör, siren, ihbar butonu ve alarm panelleri.</p></div>
+    <div class="card"><h3>Söndürme Ekipmanları</h3><p>Sprinkler, vana, söndürücü ve söndürme bileşenleri.</p></div>
+    <div class="card"><h3>Tesisat Malzemeleri</h3><p>Yangın dolabı, hidrant, bağlantı ve kontrol ekipmanları.</p></div>
+  </div>
+</section>
+
+<section id="teklif">
+  <h2>WhatsApp'tan Teklif Alın</h2>
+  <form id="teklifForm">
+    <input id="ad" placeholder="Adınız veya firma adınız" required>
+    <input id="sehir" placeholder="Projenin bulunduğu il" required>
+    <select id="hizmet" required>
+      <option value="">Hizmet seçiniz</option>
+      <option>Yangın Algılama ve Alarm</option>
+      <option>Sprinkler Sistemleri</option>
+      <option>Hidrant ve Yangın Dolabı</option>
+      <option>Gazlı Söndürme</option>
+      <option>Köpüklü Söndürme</option>
+      <option>Duman Tahliye</option>
+      <option>Proje ve Tasarım</option>
+      <option>Montaj ve Bakım</option>
+      <option>Malzeme Tedariki</option>
+      <option>Diğer Yangın Sistemleri</option>
+    </select>
+    <textarea id="detay" rows="5" placeholder="Projenizi veya ihtiyacınızı açıklayın"></textarea>
+    <button class="btn" type="submit">WhatsApp ile Teklif İste</button>
+  </form>
+</section>
+
+<footer>
+  <h3>MF YANGIN SİSTEMLERİ</h3>
+  <p>İzmit / Kocaeli • Türkiye Geneli</p>
+  <p>İletişim: 0549 490 77 47</p>
+  <p>© 2026 MF Yangın Sistemleri</p>
+</footer>
+
+<a class="float" href="https://wa.me/905494907747" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+
+<script>
+document.getElementById("teklifForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const ad=document.getElementById("ad").value;
+  const sehir=document.getElementById("sehir").value;
+  const hizmet=document.getElementById("hizmet").value;
+  const detay=document.getElementById("detay").value;
+  const mesaj=`Merhaba, MF Yangın Sistemleri üzerinden teklif almak istiyorum.\nAd/Firma: ${ad}\nİl: ${sehir}\nHizmet: ${hizmet}\nDetay: ${detay}`;
+  window.open("https://wa.me/905494907747?text="+encodeURIComponent(mesaj),"_blank");
+});
+</script>
+</body>
+</html>
+
