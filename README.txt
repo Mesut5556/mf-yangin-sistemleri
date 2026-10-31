@@ -1,7 +1,13 @@
-MF Yangın Sistemleri V3.0
-GitHub: https://github.com/Mesut5556/mf-yangin-sistemleri
-index.html dosyası ve assets klasörünü depo ana dizinine yükleyin.
-ÖNEMLİ: assets klasörünün içindeki tüm .webp dosyaları assets/ altında bulunmalıdır.
-GitHub Pages: https://mesut5556.github.io/mf-yangin-sistemleri/
+MF YANGIN VE GÜVENLİK SİSTEMLERİ — V4
+
+Kocaeli merkezli, Türkiye genelinde anahtar teslim yangın ve elektronik güvenlik sistemleri.
+
+YÜKLEME:
+1) GitHub deposunun ana dizinindeki index.html dosyasını bu paketteki index.html ile değiştirin.
+2) assets klasöründeki 6 yeni SVG dosyasını mevcut GitHub assets klasörüne yükleyin: kamera.svg, plaka.svg, bariyer.svg, kart.svg, alarm.svg, diafon.svg.
+3) V3 görsellerini silmeyin.
+4) GitHub Pages güncellenince sayfayı yenileyin.
+
 WhatsApp: 0542 136 55 43
-Görseller konsept amaçlı yapay zeka üretimidir; gerçek ürün fotoğrafı veya marka modeli olarak sunulmamalıdır.
+Alan adı / GitHub kullanıcı adı değişmez.
+Not: Hizmet iddiaları, fiili kapasite ve ilgili yetkilerle uyumlu tutulmalıdır.
